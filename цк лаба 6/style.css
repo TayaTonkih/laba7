@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(127, 138, 218);
+}
+
+p{
+    border-style: solid;
+    border-color: rgb(32, 13, 101);
+    background-color: rgb(255, 255, 255);
+    margin-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px ;
+    color: rgb(14, 3, 63);
+    text-align: left
+}
+ul, ol {
+    border-style: solid;
+    border-color: rgb(24, 30, 140);
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: rgb(8, 1, 25);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+a {
+    color: rgb(35, 7, 73); 
+}
+img{
+    height: 300px;
+    width: 400px;
+}
+
+.card{
+    background-color:rgb(127, 138, 218) ;
+    border-color: rgb(127, 138, 218) ;
+    img{
+    height: 300px;
+    width: 200px;
+    }
+}

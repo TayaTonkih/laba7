@@ -1,0 +1,113 @@
+<!Doctype html>
+<html lang="ru">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel ="stylesheet" href="style.css">
+        <title>Дилан О’Брайен</title>
+    </head>
+    <body>
+        <div>
+            <div>
+                <nav class="navbar navbar-expand-sn bg-light" >
+                    <div class="container-fluid">
+                        <ul class="navbar-nav d-flex flex-row" >
+                            <li class="nav-item" style="padding: 5px;">
+                                <a class="nav-link" href="info.html">Основная информация</a>
+                            </li>
+                            <li class="nav-item" style="padding: 5px;">
+                                <a class="nav-link" href="films.html">Список фильмов</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+            <div >
+                <div >
+                    <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+                    <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+                        <div class="position-sticky">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">                                 
+                                    <a class="nav-link" href="#carouselExampleControls">Карусель</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#cardF">Карточки с фильмами</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#actorInfo">Краткая информация об актёре</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="1dylan.jpg" class="d-block w-100" alt="Дилан" >
+                </div>
+                <div class="carousel-item">
+                    <img src="2dylan.jpg" class="d-block w-100" alt="еще дилан" >
+                </div>
+                <div class="carousel-item">
+                    <img src="3dylan.jpg" class="d-block w-100" alt="и еще дилан" >
+                
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        
+            <div>
+                <p id="actorInfo">
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Об актере
+                    </a>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        Дилан О’Брайен (род. 26 августа 1991) — американский актёр и музыкант. Наиболее известен по роли Стайлза Стилински в телесериале «Волчонок» и роли Томаса в экранизации романа Джеймса Дэшнера «Бегущий в лабиринте».
+                    </div>
+                </div>
+                <div id="cardF">
+                    <div class="card" style="width: 33%;float: left;">
+                        <img src="wolf.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Оборотень(сериал 2011-2017)</h5>
+                        <p class="card-text">Сериал крутится вокруг молодого игрока в лакросс по имени Скотт Маккол. Однажды ночью он блуждал по лесу в поисках трупа и подвергся нападению оборотня. Ему удалось убежать, получив лишь небольшой укус. Но чуть позднее, он начал замечать некоторые изменения в себе.</p>
+                        <a href="https://www.kinopoisk.ru/series/492613/" class="btn btn-primary">Смотреть</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 33%; float: left;" >
+                        <img src="БвЛ.jpg" class="card-img-top" >
+                        <div class="card-body">
+                        <h5 class="card-title">Бегущий в лабиринте (2014)</h5>
+                        <p class="card-text">Главный герой — подросток Томас, который просыпается в лифте, но ничего не помнит, кроме своего имени. Он оказывается среди других подростков, научившихся выживать в замкнутом пространстве. Раз в 30 дней прибывает новый мальчик.  Они кормятся тем, что удается вырастить на земле, и пытаются найти выход из лабиринта, окружающего их место жительства. Но однажды появляется девочка в состоянии комы...</p>
+                        <a href="https://www.kinopoisk.ru/film/575613/" class="btn btn-primary">Смотреть</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 34%; float: left;" >
+                        <img src="наемник.jpg" class="card-img-top" >
+                        <div class="card-body">
+                        <h5 class="card-title">Наёмник (2017)</h5>
+                        <p class="card-text">Тайный наёмник ЦРУ Митч Рэпп раздавлен потерей невесты в результате теракта. Заместитель директора ЦРУ назначает Стэна Хёрли обучать убитого горем, но серьёзно настроенного Митча предотвращению террористических операций и охоте на преступников. Вместе они исследуют волну, на первый взгляд, случайных нападений на военные и гражданские объекты. </p>
+                        <a href="https://www.kinopoisk.ru/film/708386/" class="btn btn-primary">Смотреть</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </body>
+
+</html>
